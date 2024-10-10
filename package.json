@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-hw-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterGetman/nodejs-hw-mongodb.git"
+  },
+  "author": "MisterGetman <mister.getman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterGetman/nodejs-hw-mongodb/issues"
+  },
+  "homepage": "https://github.com/MisterGetman/nodejs-hw-mongodb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.1",
+    "pino-http": "^10.3.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^11.2.2"
+  }
+}
