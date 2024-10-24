@@ -220,9 +220,9 @@
                     ]
                   },
                   "photo": {
-                    "description": "Link to contact's photo",
-                    "type": "string",
-                    "example": "https://res.cloudinary.com/uqwgdu/image/upload/image.png"
+                    "description": "File to upload",
+                    "type": "file",
+                    "format": "binary"
                   }
                 }
               }
@@ -383,9 +383,9 @@
                     ]
                   },
                   "photo": {
-                    "description": "Link to contact's photo",
-                    "type": "string",
-                    "example": "https://res.cloudinary.com/uqwgdu/image/upload/image.png"
+                    "description": "File to upload",
+                    "type": "file",
+                    "format": "binary"
                   }
                 }
               }
